@@ -177,3 +177,24 @@ connector-interface:
 # OCA/connector-jira
 # OCA/connector-telephony
 # OCA/connector-woocommerce
+# OCA/interface-github
+# OCA/rest-framework
+rest-framework:
+  - graphql_demo
+  - fastapi_auth_jwt_demo
+  - extendable
+  - base_rest_demo
+  - extendable_fastapi
+  - base_rest_datamodel
+  - base_rest_auth_api_key
+  - fastapi_auth_jwt
+  - base_rest_auth_jwt
+  - fastapi
+  - base_rest_auth_user_service
+  - model_serializer
+  - base_rest
+  - base_rest_pydantic
+  - pydantic
+  - datamodel
+  - rest_log
+  - graphql_base
