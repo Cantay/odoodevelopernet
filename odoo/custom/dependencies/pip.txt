@@ -28,3 +28,12 @@ cryptography
 # server-backend
 pymssql<=2.2.5
 sqlalchemy
+
+# server-auth
+cryptography
+email_validator
+lxml
+pyjwt
+pysaml2
+python-jose
+python-ldap
