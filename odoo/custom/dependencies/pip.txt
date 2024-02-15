@@ -106,3 +106,4 @@ python_slugify
 
 # OCA/web-api
 # OCA/webhook
+# OCA/webkit-tools
