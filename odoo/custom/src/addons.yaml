@@ -71,12 +71,14 @@ server-ux:
   - date_range_account
   - multi_step_wizard
   - user_all_groups
+#OCA/server-env
 server-env:
   - data_encryption
   - mail_environment
   - server_environment
   - server_environment_ir_config_parameter
   - server_environment_data_encryption
+#OCA/server-backend
 server-backend:
   - base_external_dbsource_mssql
   - base_user_role_company
@@ -88,6 +90,7 @@ server-backend:
   - base_external_system
   - base_external_dbsource_sqlite
   - base_portal_type
+#OCA/server-auth
 server-auth:
   - auth_jwt_demo
   - auth_oauth_ropc
@@ -109,3 +112,46 @@ server-auth:
   - user_log_view
   - auth_session_timeout
   - auth_saml
+#OCA/web
+web:
+  - web_responsive
+  - web_sheet_full_width
+  - web_chatter_position
+  - web_company_color
+  - web_apply_field_style
+  - web_ir_actions_act_window_message
+  - web_tree_many2one_clickable
+  - web_environment_ribbon
+  - web_action_conditionable
+  - web_domain_field
+  - web_widget_mpld3_chart
+  - web_theme_classic
+  - web_advanced_search
+  - web_widget_plotly_chart
+  - web_widget_x2many_2d_matrix
+  - web_save_discard_button
+  - web_dark_mode
+  - web_calendar_slot_duration
+  - web_touchscreen
+  - web_field_numeric_formatting
+  - web_no_bubble
+  - web_dashboard_tile
+  - web_remember_tree_column_width
+  - web_refresher
+  - web_widget_dropdown_dynamic
+  - web_notify
+  - web_help
+  - web_timeline
+  - web_search_with_and
+  - web_tree_duplicate
+  - web_ir_actions_act_multi
+  - web_widget_numeric_step
+  - web_dialog_size
+  - web_m2x_options
+  - web_listview_range_select
+  - web_widget_bokeh_chart
+  - web_select_all_companies
+  - web_notify_channel_message
+  - web_ir_actions_act_window_page
+  - web_widget_open_tab
+  - web_group_expand
