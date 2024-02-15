@@ -155,3 +155,11 @@ web:
   - web_ir_actions_act_window_page
   - web_widget_open_tab
   - web_group_expand
+#OCA/connector
+connector:
+  - test_connector
+  - component_event
+  - component
+  - connector
+  - connector_base_product
+  - test_component
