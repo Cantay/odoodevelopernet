@@ -10,7 +10,7 @@ odoo_dbfilter: ^prod
 odoo_initial_lang: tr_TR
 odoo_listdb: false
 odoo_oci_image: ""
-odoo_proxy: traefik
+odoo_proxy: ""
 odoo_version: 16.0
 paths_without_crawlers:
   - /web
