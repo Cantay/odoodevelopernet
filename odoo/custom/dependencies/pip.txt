@@ -52,3 +52,8 @@ cmislib
 
 # OCA/connector-ecommerce
 # OCA/connector-infor
+
+# OCA/connector-interface
+chardet
+pytz
+pyyaml

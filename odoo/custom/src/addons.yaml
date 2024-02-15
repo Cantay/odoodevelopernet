@@ -170,3 +170,7 @@ connector-cmis:
 connector-ecommerce:
   - connector_ecommerce
 # OCA/connector-infor
+# OCA/connector-interface
+connector-interface:
+  - connector_importer
+  - connector_importer_product
