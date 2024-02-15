@@ -132,6 +132,177 @@ python-barcode
 # OCA/stock-logistics-warehouse
 
 # OCA/stock-logistics-workflow
+
 # OCA/wms
 
 # OCA/crm
+
+# OCA/delivery-carrier
+roulier
+unidecode
+
+# OCA/intrastat-extrastat
+python-stdnum>=1.16
+
+# OCA/rma
+
+# OCA/channel
+# OCA/sale-channel
+# OCA/sale-financial
+# OCA/sale-promotion
+# OCA/sale-reporting
+# OCA/sale-workflow
+# OCA/helpdesk
+# OCA/repair
+# OCA/timesheet
+
+# OCA/hr
+python-dateutil
+
+# OCA/hr-attendance
+# OCA/hr-expense
+# OCA/hr-holidays
+# OCA/payroll
+# OCA/vertical-hotel
+# OCA/vertical-isp
+# OCA/vertical-medical
+# OCA/vertical-realestate
+# OCA/vertical-rental
+# OCA/fleet
+# OCA/pms
+# OCA/vertical-agriculture
+# OCA/vertical-education
+# OCA/vertical-travel
+# OCA/vertical-association
+# OCA/cooperative
+# OCA/donation
+
+# OCA/vertical-abbey
+xlsxwriter
+
+# OCA/vertical-community
+# OCA/website
+# OCA/website-cms
+# OCA/pwa-builder
+# OCA/website-themes
+# OCA/account-analytic
+# OCA/account-budgeting
+# OCA/account-closing
+# OCA/account-consolidation
+# OCA/account-financial-reporting
+
+# OCA/account-financial-tools
+freezegun
+numpy-financial<=1.0.0
+numpy>=1.15
+python-dateutil
+
+# OCA/account-fiscal-rule
+Avalara
+
+# OCA/account-invoice-reporting
+# OCA/account-payment
+
+# OCA/account-reconcile
+xlrd
+
+# OCA/bank-payment
+lxml
+unidecode
+
+# OCA/bank-statement-import
+chardet
+ofxparse
+xlrd
+
+# OCA/commission
+# OCA/community-data-files
+pycountry
+schwifty
+
+# OCA/edi
+dotty-dict
+factur-x
+phonenumbers
+pydifact
+pytz
+xmltodict
+
+# OCA/edi-framework
+PyYAML
+xmlschema
+
+# OCA/margin-analysis
+# OCA/program
+# OCA/wallet
+# OCA/credit-control
+# OCA/agreement
+# OCA/business-requirement
+# OCA/contract
+# OCA/data-protection
+# OCA/dms
+# OCA/knowledge
+# OCA/management-system
+# OCA/role-policy
+# OCA/brand
+# OCA/currency
+# OCA/e-commerce
+
+# OCA/odoo-pim
+unidecode
+
+# OCA/operating-unit
+# OCA/pos
+
+# OCA/product-attribute
+freezegun
+openupgradelib
+
+# OCA/product-configurator
+mako
+
+# OCA/product-kitting
+
+# OCA/product-pack
+# OCA/ddmrp
+# OCA/manufacture
+# OCA/manufacture-reporting
+# OCA/project-agile
+# OCA/project
+# OCA/purchase-reporting
+# OCA/purchase-workflow
+openupgradelib
+
+# OCA/event
+# OCA/field-service
+# OCA/geospatial
+geojson
+requests
+shapely
+simplejson
+
+# OCA/iot
+
+# OCA/mis-builder
+reporting-engine
+server-ux
+web
+
+# OCA/mis-builder-contrib
+
+# OCA/reporting-engine
+lxml
+mock
+openpyxl
+py3o.formats
+py3o.template
+PyPDF2
+xlrd
+xlsxwriter
+
+# OCA/report-print-send
+oauthlib
+pycups
+requests_oauthlib
+
+# OCA/multi-company
