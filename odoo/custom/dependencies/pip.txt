@@ -107,3 +107,6 @@ python_slugify
 # OCA/web-api
 # OCA/webhook
 # OCA/webkit-tools
+
+# OCA/social
+odoo_test_helper

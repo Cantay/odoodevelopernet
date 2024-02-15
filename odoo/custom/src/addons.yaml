@@ -236,3 +236,38 @@ web-api:
   - endpoint
 # OCA/webhook
 # OCA/webkit-tools
+# OCA/social
+social:
+  - mail_composer_cc_bcc
+  - mail_autosubscribe
+  - mail_tracking_mass_mailing
+  - mail_template_substitute
+  - mass_mailing_list_dynamic
+  - mail_improved_tracking_value
+  - mail_restrict_follower_selection
+  - mass_mailing_partner
+  - mail_tracking
+  - mail_debrand
+  - mass_mailing_contact_active
+  - mail_post_defer
+  - mass_mailing_unique
+  - mail_show_follower
+  - mail_tracking_mailgun
+  - base_search_mail_content
+  - mail_optional_follower_notification
+  - mail_activity_board
+  - email_template_qweb
+  - mass_mailing_event_registration_exclude
+  - mass_mailing_resend
+  - mail_attach_existing_attachment
+  - mail_activity_reminder
+  - mail_layout_preview
+  - mail_composer_cc_bcc_account
+  - mail_activity_partner
+  - mail_optional_autofollow
+  - mail_send_confirmation
+  - mail_quoted_reply
+  - mail_activity_team
+  - mail_activity_done
+  - mail_outbound_static
+  - mail_partner_opt_out
