@@ -41,3 +41,33 @@ server-tools:
   - html_text
   - base_m2m_custom_field
   - auditlog
+#OCA/server-ux
+server-ux:
+  - test_base_binary_url_import
+  - base_tier_validation_forward
+  - base_revision
+  - base_substate
+  - base_import_security_group
+  - base_optional_quick_create
+  - base_tier_validation_waiting
+  - base_export_manager
+  - base_tier_validation_definition_server_action
+  - base_search_custom_field_filter
+  - base_tier_validation_formula
+  - base_binary_url_import
+  - base_archive_security
+  - filter_multi_user
+  - server_action_mass_edit
+  - base_user_locale
+  - base_tier_validation_server_action
+  - base_technical_features
+  - sequence_reset_period
+  - base_cancel_confirm
+  - base_custom_filter
+  - base_menu_visibility_restriction
+  - date_range
+  - barcode_action
+  - base_tier_validation
+  - date_range_account
+  - multi_step_wizard
+  - user_all_groups

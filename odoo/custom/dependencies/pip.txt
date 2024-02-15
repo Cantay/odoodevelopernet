@@ -17,3 +17,7 @@ pygount
 pysftp
 sentry_sdk<=1.9.0
 unidecode
+
+# server-ux
+pyrfc6266
+responses
