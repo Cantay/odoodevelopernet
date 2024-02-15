@@ -88,3 +88,10 @@ typing-extensions
 ujson
 
 # OCA/rest-api
+
+# OCA/search-engine
+odoo-test-helper >= 1.1.0
+algoliasearch>=2.0,<3.0
+unidecode
+# OCA/search-engine tests
+vcrpy-unittest

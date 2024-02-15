@@ -199,3 +199,11 @@ rest-framework:
   - rest_log
   - graphql_base
 # OCA/rest-api
+# OCA/search-engine
+search-engine:
+  - connector_elasticsearch
+  - connector_search_engine
+  - connector_algolia
+  - search_engine_serializer_pydantic
+  - connector_search_engine_serializer_ir_export
+  - search_engine_image_thumbnail
