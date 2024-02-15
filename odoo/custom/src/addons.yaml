@@ -207,3 +207,7 @@ search-engine:
   - search_engine_serializer_pydantic
   - connector_search_engine_serializer_ir_export
   - search_engine_image_thumbnail
+server-brand:
+  - disable_odoo_online
+  - portal_odoo_debranding
+  - remove_odoo_enterprise

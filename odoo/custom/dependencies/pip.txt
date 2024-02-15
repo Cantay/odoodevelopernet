@@ -95,3 +95,5 @@ algoliasearch>=2.0,<3.0
 unidecode
 # OCA/search-engine tests
 vcrpy-unittest
+
+# OCA/server-brand
