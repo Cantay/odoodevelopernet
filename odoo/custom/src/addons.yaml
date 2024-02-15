@@ -173,7 +173,6 @@ connector-ecommerce:
 # OCA/connector-interface
 connector-interface:
   - connector_importer
-  - connector_importer_product
 # OCA/connector-jira
 # OCA/connector-telephony
 # OCA/connector-woocommerce
@@ -211,3 +210,20 @@ server-brand:
   - disable_odoo_online
   - portal_odoo_debranding
   - remove_odoo_enterprise
+  - hr_expense_remove_mobile_link
+storage:
+  - fs_storage
+  - storage_backend_sftp
+  - fs_image
+  - storage_file
+  - fs_attachment
+  - fs_base_multi_image
+  - fs_product_multi_media
+  - fs_file
+  - fs_product_brand_multi_image
+  - image_tag
+  - storage_backend
+  - fs_file_demo
+  - fs_base_multi_media
+  - fs_image_thumbnail
+  - fs_product_multi_image

@@ -93,7 +93,13 @@ ujson
 odoo-test-helper >= 1.1.0
 algoliasearch>=2.0,<3.0
 unidecode
+
 # OCA/search-engine tests
 vcrpy-unittest
 
 # OCA/server-brand
+
+# OCA/storage
+fsspec
+paramiko
+python_slugify
