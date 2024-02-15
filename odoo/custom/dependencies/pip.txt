@@ -21,3 +21,6 @@ unidecode
 # server-ux
 pyrfc6266
 responses
+
+# server-env
+cryptography
