@@ -169,3 +169,4 @@ connector-cmis:
 # OCA/connector-ecommerce
 connector-ecommerce:
   - connector_ecommerce
+# OCA/connector-infor

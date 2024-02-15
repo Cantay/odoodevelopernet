@@ -51,3 +51,4 @@ cachetools
 cmislib
 
 # OCA/connector-ecommerce
+# OCA/connector-infor
