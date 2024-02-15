@@ -103,3 +103,5 @@ vcrpy-unittest
 fsspec
 paramiko
 python_slugify
+
+# OCA/web-api

@@ -19,7 +19,6 @@ server-tools:
   - base_search_fuzzy
   - base_sparse_field_list_support
   - excel_import_export
-  - setup
   - base_technical_user
   - onchange_helper
   - url_attachment_search_fuzzy
@@ -171,8 +170,9 @@ connector-ecommerce:
   - connector_ecommerce
 # OCA/connector-infor
 # OCA/connector-interface
-connector-interface:
+connector-interfaces:
   - connector_importer
+  - connector_importer_product
 # OCA/connector-jira
 # OCA/connector-telephony
 # OCA/connector-woocommerce
@@ -206,11 +206,13 @@ search-engine:
   - search_engine_serializer_pydantic
   - connector_search_engine_serializer_ir_export
   - search_engine_image_thumbnail
+# OCA/search-brand
 server-brand:
   - disable_odoo_online
   - portal_odoo_debranding
   - remove_odoo_enterprise
   - hr_expense_remove_mobile_link
+# OCA/storage
 storage:
   - fs_storage
   - storage_backend_sftp
@@ -227,3 +229,8 @@ storage:
   - fs_base_multi_media
   - fs_image_thumbnail
   - fs_product_multi_image
+# OCA/web-api
+web-api:
+  - endpoint_route_handler
+  - webservice
+  - endpoint
