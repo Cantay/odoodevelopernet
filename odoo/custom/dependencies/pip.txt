@@ -105,3 +105,4 @@ paramiko
 python_slugify
 
 # OCA/web-api
+# OCA/webhook
