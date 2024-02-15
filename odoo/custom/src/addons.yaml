@@ -271,3 +271,67 @@ social:
   - mail_activity_done
   - mail_outbound_static
   - mail_partner_opt_out
+# OCA/partner-contact
+partner-contact:
+  - partner_company_type
+  - partner_contact_nationality
+  - partner_country_state_required
+  - partner_tz
+  - partner_company_default
+  - partner_deduplicate_acl
+  - base_partner_company_group
+  - partner_company_group
+  - partner_multi_relation
+  - base_location_geonames_import
+  - partner_identification
+  - partner_mobile_duplicate_warn
+  - partner_label
+  - partner_external_map
+  - partner_disable_gravatar
+  - partner_category_type
+  - partner_email_duplicate_warn
+  - partner_identification_gln
+  - partner_contact_birthdate
+  - partner_interest_group
+  - partner_firstname
+  - partner_contact_gender
+  - partner_contact_type_end_user
+  - partner_purchase_manager
+  - account_partner_company_group
+  - partner_middlename
+  - partner_address_split
+  - partner_fax
+  - partner_accreditation
+  - partner_vat_unique
+  - partner_deduplicate_by_ref
+  - partner_bank_acc_type_constraint
+  - partner_industry_secondary
+  - partner_contact_department
+  - partner_pricelist_search
+  - crm_partner_company_group
+  - sale_partner_company_group
+  - base_location
+  - partner_contact_age_range
+  - partner_second_lastname
+  - partner_manual_rank
+  - partner_bank_code
+  - purchase_supplier_rank
+  - partner_affiliate
+  - partner_contact_personal_information_page
+  - base_partner_sequence
+  - partner_subject_to_vat
+  - partner_address_street3
+  - partner_contact_address_default
+  - partner_email_check
+  - partner_ref_unique
+  - partner_contact_lang
+  - partner_stage
+  - partner_deduplicate_filter
+  - partner_capital
+  - partner_identification_eori
+  - partner_address_two_lines
+  - partner_contact_access_link
+  - base_country_state_translatable
+  - partner_contact_job_position
+  - partner_tier_validation
+  - sale_customer_rank
