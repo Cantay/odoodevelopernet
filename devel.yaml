@@ -17,6 +17,7 @@ services:
       TARGET: odoo
 
   odoo:
+    platform: linux/amd64
     extends:
       file: common.yaml
       service: odoo
@@ -65,14 +66,19 @@ services:
       - --dev=reload,qweb,werkzeug,xml
 
   db:
+    platform: linux/amd64
     extends:
       file: common.yaml
       service: db
+    networks: *public
+    ports:
+      - "127.0.0.1:5432:5432"
     environment:
       POSTGRES_DB: *dbname
       POSTGRES_PASSWORD: odoopassword
 
   pgweb:
+    platform: linux/amd64
     image: docker.io/sosedoff/pgweb
     networks: *public
     ports:
@@ -83,6 +89,7 @@ services:
       - db
 
   smtp:
+    platform: linux/amd64
     extends:
       file: common.yaml
       service: smtpfake
@@ -91,6 +98,7 @@ services:
       - "127.0.0.1:16025:8025"
 
   wdb:
+    platform: linux/amd64
     image: docker.io/kozea/wdb
     networks: *public
     ports:
@@ -100,6 +108,7 @@ services:
 
   # Whitelist outgoing traffic for tests, reports, etc.
   proxy_cdnjs_cloudflare_com:
+    platform: linux/amd64
     image: ghcr.io/tecnativa/docker-whitelist:latest
     networks:
       default:
@@ -111,6 +120,7 @@ services:
       PRE_RESOLVE: 1
 
   proxy_fonts_googleapis_com:
+    platform: linux/amd64
     image: ghcr.io/tecnativa/docker-whitelist:latest
     networks:
       default:
@@ -122,6 +132,7 @@ services:
       PRE_RESOLVE: 1
 
   proxy_fonts_gstatic_com:
+    platform: linux/amd64
     image: ghcr.io/tecnativa/docker-whitelist:latest
     networks:
       default:
@@ -133,6 +144,7 @@ services:
       PRE_RESOLVE: 1
 
   proxy_www_google_com:
+    platform: linux/amd64
     image: ghcr.io/tecnativa/docker-whitelist:latest
     networks:
       default:
@@ -144,6 +156,7 @@ services:
       PRE_RESOLVE: 1
 
   proxy_www_googleapis_com:
+    platform: linux/amd64
     image: ghcr.io/tecnativa/docker-whitelist:latest
     networks:
       default:
@@ -155,6 +168,7 @@ services:
       PRE_RESOLVE: 1
 
   proxy_www_gravatar_com:
+    platform: linux/amd64
     image: ghcr.io/tecnativa/docker-whitelist:latest
     networks:
       default:

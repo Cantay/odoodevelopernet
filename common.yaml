@@ -27,6 +27,9 @@ services:
       POSTGRES_USER: *dbuser
       CONF_EXTRA: |
         work_mem = 512MB
+        lock_timeout = 5s
+        statement_timeout = 30s
+        log_lock_waits = on
     volumes:
       - db:/var/lib/postgresql/data:z
 
