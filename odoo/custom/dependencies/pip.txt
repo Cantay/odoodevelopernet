@@ -59,3 +59,7 @@ pytz
 pyyaml
 
 # OCA/connector-jira
+# OCA/connector-prestashop
+# OCA/connector-telephony
+# OCA/connector-woocommerce
+# OCA/interface-github
