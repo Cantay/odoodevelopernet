@@ -134,4 +134,4 @@ python-barcode
 # OCA/stock-logistics-workflow
 # OCA/wms
 
-# OCA/wms
+# OCA/crm
