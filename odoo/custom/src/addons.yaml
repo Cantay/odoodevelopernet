@@ -335,3 +335,8 @@ partner-contact:
   - partner_contact_job_position
   - partner_tier_validation
   - sale_customer_rank
+# OCA/calendar
+# OCA/spreadsheet
+spreadsheet:
+  - spreadsheet_oca
+  - spreadsheet_dashboard_oca
