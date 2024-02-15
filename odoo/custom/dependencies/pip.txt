@@ -24,3 +24,7 @@ responses
 
 # server-env
 cryptography
+
+# server-backend
+pymssql<=2.2.5
+sqlalchemy
