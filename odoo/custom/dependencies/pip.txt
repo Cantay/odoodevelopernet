@@ -46,3 +46,6 @@ plotly==5.13.1
 
 # connector
 cachetools
+
+# connector-cmis
+cmislib

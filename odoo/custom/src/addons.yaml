@@ -163,3 +163,6 @@ connector:
   - connector
   - connector_base_product
   - test_component
+#OCA/connector-cmis
+connector-cmis:
+  - cmis
