@@ -340,3 +340,143 @@ partner-contact:
 spreadsheet:
   - spreadsheet_oca
   - spreadsheet_dashboard_oca
+# OCA/stock-logistics-availability
+stock-logistics-availability:
+  - stock_available_unreserved
+  - stock_available
+  - stock_free_quantity
+  - stock_available_mrp
+  - stock_available_immediately
+  - sale_stock_available_info_popup
+# OCA/stock-logistics-barcode
+stock-logistics-barcode:
+  - product_multi_barcode
+  - product_multi_barcode_constraint_per_company
+  - barcodes_generator_abstract
+  - product_barcode_constraint_per_company
+  - barcodes_generator_product
+  - product_packaging_multi_barcode
+  - product_multi_barcode_stock_menu
+  - barcodes_generator_package
+# OCA/stock-logistics-orderpoint
+stock-logistics-orderpoint:
+  - stock_orderpoint_move_link
+  - stock_location_orderpoint
+  - stock_orderpoint_purchase_link
+# OCA/stock-logistics-reporting
+stock-logistics-reporting:
+  - stock_card_report
+  - stock_report_quantity_by_location
+  - stock_quantity_history_location
+  - stock_picking_report_internal_delivery_address
+  - stock_picking_report_valued
+  - stock_picking_report_custom_description
+  - delivery_line_sale_line_position
+# OCA/stock-logistics-transport
+stock-logistics-transport:
+  - stock_dock
+  - shipment_advice
+  - shipment_advice_planner
+# OCA/stock-logistics-warehouse
+stock-logistics-warehouse:
+  - account_move_line_stock_info
+  - procurement_auto_create_group
+  - stock_move_location
+  - stock_location_zone
+  - stock_quant_cost_info
+  - stock_packaging_calculator
+  - stock_demand_estimate_matrix
+  - scrap_reason_code
+  - stock_package_type_button_box
+  - stock_route_mto
+  - stock_location_lockdown
+  - stock_putaway_product_template
+  - stock_helper
+  - stock_picking_volume_packaging
+  - stock_demand_estimate
+  - stock_inventory_count_to_zero
+  - stock_move_common_dest
+  - stock_picking_procure_method
+  - stock_move_auto_assign
+  - stock_warehouse_calendar
+  - stock_storage_category_capacity_name
+  - stock_quant_manual_assign
+  - stock_inventory_discrepancy
+  - stock_picking_product_interchangeable
+  - stock_mts_mto_rule
+  - stock_product_qty_by_packaging
+  - stock_inventory
+  - stock_move_packaging_qty
+  - stock_move_auto_assign_auto_release
+  - stock_location_product_restriction
+  - product_packaging_usability
+  - stock_location_position
+  - stock_picking_volume
+  - stock_packaging_calculator_packaging_level
+  - stock_picking_commercial_partner
+  - stock_search_supplierinfo_code
+  - account_move_line_product
+  - stock_reserve
+# OCA/stock-logistics-workflow
+stock-logistics-workflow:
+  - stock_grn
+  - stock_move_propagate_first_move
+  - stock_move_line_reserved_quant
+  - stock_picking_batch_invoice_frequency
+  - sale_line_returned_qty
+  - stock_picking_show_backorder
+  - delivery_procurement_group_carrier
+  - stock_delivery_note
+  - stock_picking_show_return
+  - stock_picking_purchase_order_link
+  - stock_quant_package_product_packaging
+  - stock_move_line_expiration_date_required
+  - stock_picking_to_batch_group_fields
+  - stock_picking_mass_action
+  - stock_picking_batch_extended_account_sale_type
+  - stock_picking_batch_extended_account
+  - stock_move_line_auto_fill
+  - stock_picking_invoice_link
+  - stock_picking_partner_note
+  - stock_lot_production_date
+  - stock_picking_product_link
+  - stock_picking_warn_message
+  - stock_picking_filter_lot
+  - stock_landed_costs_currency
+  - stock_picking_info_lot
+  - stock_lot_scrap
+  - stock_receipt_lot_info
+  - sale_order_global_stock_route
+  - stock_picking_line_sequence
+  - stock_picking_sale_order_link
+  - stock_picking_batch_extended
+  - stock_putaway_hook
+  - stock_restrict_lot
+  - stock_quant_package_dimension
+  - stock_move_line_serial_unique
+  - stock_picking_group_by_base
+  - stock_picking_batch_print_pickings
+  - stock_override_procurement
+  - stock_owner_restriction
+  - stock_move_free_reservation_reassign
+  - stock_split_picking
+  - stock_no_negative
+  - purchase_stock_picking_invoice_link
+  - stock_picking_auto_create_lot
+  - stock_picking_send_by_mail
+  - stock_valuation_layer_usage
+  - stock_partner_delivery_window
+  - stock_picking_start
+  - delivery_total_weight_from_packaging
+  - stock_picking_back2draft
+  - stock_picking_grn_mandatory
+  - stock_account_product_run_fifo_hook
+  - stock_picking_kind
+  - stock_quant_package_dimension_total_weight_from_packaging
+  - stock_picking_group_by_max_weight
+  - stock_procurement_customer
+  - stock_picking_customer_ref
+  - stock_picking_batch_print_invoices
+  - stock_picking_group_by_partner_by_carrier
+  - stock_picking_supplier_ref
+  - stock_move_manage_priority

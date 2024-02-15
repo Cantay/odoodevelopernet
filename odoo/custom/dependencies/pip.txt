@@ -114,3 +114,17 @@ odoo_test_helper
 # OCA/partner-contact
 email-validator
 phonenumbers
+
+# OCA/calendar
+# OCA/spreadsheet
+
+# OCA/stock-logistics-availability
+
+# OCA/stock-logistics-barcode
+python-barcode
+
+# OCA/stock-logistics-orderpoint
+# OCA/stock-logistics-reporting
+# OCA/stock-logistics-transport
+# OCA/stock-logistics-warehouse
+# OCA/stock-logistics-workflow
