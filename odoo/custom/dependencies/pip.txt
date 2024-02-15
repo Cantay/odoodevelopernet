@@ -124,7 +124,14 @@ phonenumbers
 python-barcode
 
 # OCA/stock-logistics-orderpoint
+
 # OCA/stock-logistics-reporting
+
 # OCA/stock-logistics-transport
+
 # OCA/stock-logistics-warehouse
+
 # OCA/stock-logistics-workflow
+# OCA/wms
+
+# OCA/wms

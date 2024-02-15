@@ -480,3 +480,24 @@ stock-logistics-workflow:
   - stock_picking_group_by_partner_by_carrier
   - stock_picking_supplier_ref
   - stock_move_manage_priority
+# OCA/wms
+wms:
+  - stock_picking_completion_info
+  - shopfloor_base
+  - stock_available_to_promise_release
+  - stock_dynamic_routing
+  - stock_picking_type_shipping_policy
+  - stock_release_channel_batch_mode_commercial_partner
+  - stock_warehouse_flow
+  - stock_release_channel_process_end_time
+  - stock_release_channel_auto_release
+  - stock_release_channel_partner_public_holidays
+  - delivery_carrier_warehouse
+  - stock_release_channel_shipment_lead_time
+  - stock_release_channel_cutoff
+  - stock_release_channel_shipment_advice
+  - stock_storage_type_putaway_abc
+  - stock_storage_type
+  - stock_release_channel
+  - stock_release_channel_propagate_channel_picking
+  - stock_release_channel_partner_delivery_window
