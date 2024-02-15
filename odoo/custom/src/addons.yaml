@@ -174,3 +174,4 @@ connector-ecommerce:
 connector-interface:
   - connector_importer
   - connector_importer_product
+# OCA/connector-jira

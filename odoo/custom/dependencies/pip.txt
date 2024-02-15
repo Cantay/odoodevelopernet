@@ -57,3 +57,5 @@ cmislib
 chardet
 pytz
 pyyaml
+
+# OCA/connector-jira
