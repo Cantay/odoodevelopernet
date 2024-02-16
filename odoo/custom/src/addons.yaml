@@ -578,8 +578,7 @@ sale-channel:
   - sale_channel_category
   - sale_channel_product
 # OCA/sale-financial
-sale-financial:
-
+# sale-financial:
 # OCA/sale-promotion
 sale-promotion:
   - sale_loyalty_incompatibility
@@ -772,20 +771,20 @@ hr-holidays:
 payroll:
   - payroll_account
   - payroll
-# OCA/vertical-hotel
-vertical-hotel:
+# # OCA/vertical-hotel
+# vertical-hotel:
 
-# OCA/vertical-isp
-vertical-isp:
+# # OCA/vertical-isp
+# vertical-isp:
 
-# OCA/vertical-medical
-vertical-medical:
+# # OCA/vertical-medical
+# vertical-medical:
 
-# OCA/vertical-realestate
-vertical-realestate:
+# # OCA/vertical-realestate
+# vertical-realestate:
 
-# OCA/vertical-rental
-vertical-rental:
+# # OCA/vertical-rental
+# vertical-rental:
 
 # OCA/fleet
 fleet:
@@ -796,17 +795,18 @@ fleet:
   - fleet_vehicle_stock
   - fleet_vehicle_configuration
   - fleet_vehicle_fuel_type_ethanol
-# OCA/pms
-pms:
 
-# OCA/vertical-agriculture
-vertical-agriculture:
+# # OCA/pms
+# pms:
 
-# OCA/vertical-education
-vertical-education:
+# # OCA/vertical-agriculture
+# vertical-agriculture:
 
-# OCA/vertical-travel
-vertical-travel:
+# # OCA/vertical-education
+# vertical-education:
+
+# # OCA/vertical-travel
+# vertical-travel:
 
 # OCA/vertical-association
 vertical-association:
@@ -817,6 +817,7 @@ vertical-association:
   - membership_withdrawal
   - membership_delegated_partner
   - website_membership_gamification
+
 # OCA/cooperative
 cooperative:
   - cooperator_website
@@ -825,6 +826,7 @@ cooperative:
   - l10n_be_cooperator_portal
   - l10n_fr_cooperator
   - l10n_be_cooperator
+
 # OCA/donation
 donation:
   - donation
@@ -832,6 +834,7 @@ donation:
   - donation_bank_statement_oca
   - donation_direct_debit
   - donation_base
+
 # OCA/vertical-abbey
 vertical-abbey:
   - donation_mass
@@ -839,8 +842,9 @@ vertical-abbey:
   - mass
   - stay
   - stay_report_py3o
-# OCA/vertical-community
-vertical-community:
+
+# # OCA/vertical-community
+# vertical-community:
 
 # OCA/website
 website:
@@ -855,17 +859,72 @@ website:
   - website_form_require_legal
   - website_require_login
   - website_cookiebot
+
 # OCA/website-cms
 website-cms:
   - cms_form
   - cms_form_example
   - cms_status_message
   - cms_info
-# OCA/pwa-builder
-pwa-builder:
 
-# OCA/website-themes
-website-themes:
+# # OCA/pwa-builder
+# pwa-builder:
+
+# # OCA/website-themes
+# website-themes:
+
+# OCA/account-invoicing
+account-invoicing:
+  - account_mail_autosubscribe
+  - account_invoice_force_number
+  - account_invoice_payment_term_date_due
+  - account_invoice_tax_required
+  - account_invoice_merge
+  - account_invoice_supplierinfo_update_discount
+  - account_invoice_change_currency
+  - account_menu_invoice_refund
+  - purchase_stock_picking_return_invoicing
+  - stock_picking_return_refund_option
+  - account_receipt_journal
+  - account_invoice_mass_sending
+  - account_tax_group_widget_base_amount
+  - account_invoice_refund_line_selection
+  - portal_account_personal_data_only
+  - sale_timesheet_invoice_description
+  - account_invoice_refund_link
+  - account_invoice_fiscal_position_update
+  - product_form_account_move_line_link
+  - account_invoice_blocking
+  - account_invoice_supplier_self_invoice
+  - account_invoice_section_sale_order
+  - account_invoice_currency_taxes
+  - account_tax_one_vat
+  - account_invoice_fixed_discount
+  - account_invoice_show_currency_rate
+  - partner_invoicing_mode_monthly
+  - account_invoice_tree_currency
+  - account_invoice_supplierinfo_update
+  - account_invoice_default_code_column
+  - stock_picking_invoicing
+  - account_invoice_supplier_ref_unique
+  - account_invoice_pricelist_sale
+  - account_move_tier_validation
+  - partner_invoicing_mode_at_shipping
+  - account_invoice_supplierinfo_update_triple_discount
+  - account_invoice_check_total
+  - account_invoice_refund_reason
+  - account_invoice_refund_code
+  - sale_order_invoicing_grouping_criteria
+  - account_tax_change
+  - account_invoice_crm_tag
+  - partner_invoicing_mode
+  - account_invoice_transmit_method
+  - purchase_invoicing_no_zero_line
+  - account_receipt_send
+  - account_invoice_triple_discount
+  - sale_order_invoicing_qty_percentage
+  - account_invoice_pricelist
+  - sale_line_refund_to_invoice_qty
 
 # OCA/account-analytic
 account-analytic:
@@ -885,9 +944,11 @@ account-analytic:
   - account_analytic_tag
   - sale_analytic_tag
   - account_analytic_required
+
 # OCA/account-budgeting
 account-budgeting:
   - account_budget_oca
+
 # OCA/account-closing
 account-closing:
   - account_cutoff_picking
@@ -896,8 +957,9 @@ account-closing:
   - account_invoice_start_end_dates
   - account_cutoff_base
   - account_cutoff_accrual_subscription
-# OCA/account-consolidation
-account-consolidation:
+
+# # OCA/account-consolidation
+# account-consolidation:
 
 # OCA/account-financial-reporting
 account-financial-reporting:
@@ -905,6 +967,7 @@ account-financial-reporting:
   - account_financial_report
   - partner_statement
   - mis_builder_cash_flow
+
 # OCA/account-financial-tools
 account-financial-tools:
   - account_cash_deposit
@@ -938,6 +1001,7 @@ account-financial-tools:
   - account_account_tag_code
   - account_move_line_purchase_info
   - account_fiscal_position_vat_check
+
 # OCA/account-fiscal-rule
 account-fiscal-rule:
   - account_avatax_exemption_base
@@ -1073,6 +1137,7 @@ edi-framework:
   - edi_stock_oca
   - edi_storage_oca
   - edi_ubl_oca
+
 # OCA/margin-analysis
 margin-analysis:
   - sale_margin_security
@@ -1085,13 +1150,14 @@ margin-analysis:
   - account_invoice_margin
   - product_margin_classification
   - sale_margin_sync
-# OCA/program
-program:
 
-# OCA/wallet
-wallet:
+# # OCA/program
+# program:
 
-# OCA/credit-control/tree
+# # OCA/wallet
+# wallet:
+
+# OCA/~/tree
 credit-control:
   - account_financial_risk
   - account_invoice_overdue_warn
@@ -1105,15 +1171,18 @@ credit-control:
   - sale_financial_risk_info
   - account_credit_control_dunning_fees
   - partner_risk_insurance
+
 # OCA/agreement
 agreement:
   - agreement_legal
   - agreement
   - agreement_rebate
+
 # OCA/business-requirement
 business-requirement:
   - business_requirement_crm
   - business_requirement
+
 # OCA/contract
 contract:
   - contract_sale
@@ -1123,13 +1192,16 @@ contract:
   - contract_sale_generation
   - contract_invoice_start_end_dates
   - agreement_rebate_partner_company_group
+
 # OCA/data-protection
 data-protection:
   - privacy
   - privacy_consent
+
 # OCA/dms
 dms:
   - dms
+
 # OCA/knowledge
 knowledge:
   - document_page_reference
@@ -1141,6 +1213,7 @@ knowledge:
   - document_url_google_drive
   - document_knowledge
   - document_url
+
 # OCA/management-system
 management-system:
   - mgmtsystem_environment
@@ -1173,8 +1246,8 @@ management-system:
   - document_page_environmental_aspect
   - mgmtsystem_nonconformity_type
 
-# OCA/role-policy
-role-policy:
+# # OCA/role-policy
+# role-policy:
 
 # OCA/brand
 brand:
@@ -1348,8 +1421,8 @@ product-attribute:
 product-configurator:
   - product_configurator
 
-# OCA/product-kitting
-product-kitting:
+# # OCA/product-kitting
+# product-kitting:
 
 # OCA/product-pack
 product-pack:
@@ -1403,8 +1476,8 @@ manufacture-reporting:
   - mrp_flattened_bom_xlsx_subcontracting_cost
   - mrp_flattened_bom_xlsx_direct_materials_cost
 
-# OCA/project-agile
-project-agile:
+# # OCA/project-agile
+# project-agile:
 
 # OCA/project
 project:
@@ -1623,3 +1696,16 @@ multi-company:
   - mail_multicompany
   - product_tax_multicompany_default
   - res_company_search_view
+
+# OCA/queue
+queue:
+  - queue_job_batch
+  - queue_job_cron
+  - queue_job
+  - queue_job_cron_jobrunner
+  - base_import_async
+  - test_base_import_async
+  - queue_job_subscribe
+  - test_queue_job_batch
+  - test_queue_job
+  - base_export_async

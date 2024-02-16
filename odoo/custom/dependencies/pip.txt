@@ -93,6 +93,7 @@ ujson
 odoo-test-helper >= 1.1.0
 algoliasearch>=2.0,<3.0
 unidecode
+elasticsearch>=7.0.0
 
 # OCA/search-engine tests
 vcrpy-unittest
@@ -205,6 +206,9 @@ Avalara
 
 # OCA/account-reconcile
 xlrd
+
+# OCA/account-invoicing
+openupgradelib
 
 # OCA/bank-payment
 lxml
