@@ -310,3 +310,6 @@ pycups
 requests_oauthlib
 
 # OCA/multi-company
+# CCA/dashboard_cca
+# CCA/payment_provider_cca
+# CCA/currency_extended_oca

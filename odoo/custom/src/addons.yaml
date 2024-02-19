@@ -1697,6 +1697,14 @@ multi-company:
   - product_tax_multicompany_default
   - res_company_search_view
 
+# CCA/payment-provider-cca
+# CCA/dashboard-cca
+# CCA/currency-extended-oca
+# CCA/knowledge-cca
+# CCA/agreement-extended-oca
+# CCA/dms-extended-oca
+# CCA/contract-extended-oca
+
 # OCA/queue
 queue:
   - queue_job_batch

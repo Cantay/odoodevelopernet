@@ -2,7 +2,8 @@
 /odoo/auto
 /odoo/custom/src/*/
 !/odoo/custom/src/private/
-
+!/odoo/custom/*.DS_Store
+!/odoo/custom/src/*.DS_Store
 # Ignore docker-compose.yml and overrides by default, to allow easy defaults per clone
 /docker-compose.yml
 /docker-compose.override.yml
@@ -13,6 +14,7 @@
 **.py[co]
 **.egg-info
 **.orig
+.DS_Store
 
 # User-specific or editor-specific development files and settings
 .vscode/*

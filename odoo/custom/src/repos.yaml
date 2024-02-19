@@ -14,3 +14,426 @@
     - ocb $ODOO_VERSION
     # Example of a merge of the PR with the number <PR>
     # - oca refs/pull/<PR>/head
+
+./dms-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    dms-oth: https://github.com/Cantay/dms-oth.git
+  target: dms-oth $ODOO_VERSION
+  merges:
+    - dms-oth $ODOO_VERSION
+
+./website-ecommerce-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    website-ecommerce-oth: https://github.com/Cantay/website-ecommerce-oth.git
+  target: website-ecommerce-oth $ODOO_VERSION
+  merges:
+    - website-ecommerce-oth $ODOO_VERSION
+
+./server-auth-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    server-auth-oth: https://github.com/Cantay/server-auth-oth.git
+  target: server-auth-oth $ODOO_VERSION
+  merges:
+    - server-auth-oth $ODOO_VERSION
+
+./payment-provider-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    payment-provider-oth: https://github.com/Cantay/payment-provider-oth.git
+  target: payment-provider-oth $ODOO_VERSION
+  merges:
+    - payment-provider-oth $ODOO_VERSION
+
+./hr-attendance-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    hr-attendance-oth: https://github.com/Cantay/hr-attendance-oth.git
+  target: hr-attendance-oth $ODOO_VERSION
+  merges:
+    - hr-attendance-oth $ODOO_VERSION
+
+./reporting-engine-extend-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    reporting-engine-extend-oth: https://github.com/Cantay/reporting-engine-extend-oth.git
+  target: reporting-engine-extend-oth $ODOO_VERSION
+  merges:
+    - reporting-engine-extend-oth $ODOO_VERSION
+
+./sale-reporting-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    sale-reporting-oth: https://github.com/Cantay/sale-reporting-oth.git
+  target: sale-reporting-oth $ODOO_VERSION
+  merges:
+    - sale-reporting-oth $ODOO_VERSION
+
+./server-tools-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    server-tools-oth: https://github.com/Cantay/server-tools-oth.git
+  target: server-tools-oth $ODOO_VERSION
+  merges:
+    - server-tools-oth $ODOO_VERSION
+
+./account-financial-reporting-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    account-financial-reporting-oth: https://github.com/Cantay/account-financial-reporting-oth.git
+  target: account-financial-reporting-oth $ODOO_VERSION
+  merges:
+    - account-financial-reporting-oth $ODOO_VERSION
+
+./helpdesk-sh-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    helpdesk-sh-oth: https://github.com/Cantay/helpdesk-sh-oth.git
+  target: helpdesk-sh-oth $ODOO_VERSION
+  merges:
+    - helpdesk-sh-oth $ODOO_VERSION
+
+./account-invoice-reporting-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    account-invoice-reporting-oth: https://github.com/Cantay/account-invoice-reporting-oth.git
+  target: account-invoice-reporting-oth $ODOO_VERSION
+  merges:
+    - account-invoice-reporting-oth $ODOO_VERSION
+
+./asterisk-opt:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    asterisk-opt: https://github.com/Cantay/asterisk-opt.git
+  target: asterisk-opt $ODOO_VERSION
+  merges:
+    - asterisk-opt $ODOO_VERSION
+
+./website-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    website-oth: https://github.com/Cantay/website-oth.git
+  target: website-oth $ODOO_VERSION
+  merges:
+    - website-oth $ODOO_VERSION
+
+./survey-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    survey-oth: https://github.com/Cantay/survey-oth.git
+  target: survey-oth $ODOO_VERSION
+  merges:
+    - survey-oth $ODOO_VERSION
+
+./branch-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    branch-oth: https://github.com/Cantay/branch-oth.git
+  target: branch-oth $ODOO_VERSION
+  merges:
+    - branch-oth $ODOO_VERSION
+
+./gpt-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    gpt-oth: https://github.com/Cantay/gpt-oth.git
+  target: gpt-oth $ODOO_VERSION
+  merges:
+    - gpt-oth $ODOO_VERSION
+
+./website-snippet-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    website-snippet-oth: https://github.com/Cantay/website-snippet-oth.git
+  target: website-snippet-oth $ODOO_VERSION
+  merges:
+    - website-snippet-oth $ODOO_VERSION
+
+./event-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    event-oth: https://github.com/Cantay/event-oth.git
+  target: event-oth $ODOO_VERSION
+  merges:
+    - event-oth $ODOO_VERSION
+
+./stock-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    stock-oth: https://github.com/Cantay/stock-oth.git
+  target: stock-oth $ODOO_VERSION
+  merges:
+    - stock-oth $ODOO_VERSION
+
+./report-print-send-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    report-print-send-oth: https://github.com/Cantay/report-print-send-oth.git
+  target: report-print-send-oth $ODOO_VERSION
+  merges:
+    - report-print-send-oth $ODOO_VERSION
+
+./stock-logistics-availability-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    stock-logistics-availability-oth: https://github.com/Cantay/stock-logistics-availability-oth.git
+  target: stock-logistics-availability-oth $ODOO_VERSION
+  merges:
+    - stock-logistics-availability-oth $ODOO_VERSION
+
+./sale-workflow-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    sale-workflow-oth: https://github.com/Cantay/sale-workflow-oth.git
+  target: sale-workflow-oth $ODOO_VERSION
+  merges:
+    - sale-workflow-oth $ODOO_VERSION
+
+./product-configurator-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    product-configurator-oth: https://github.com/Cantay/product-configurator-oth.git
+  target: product-configurator-oth $ODOO_VERSION
+  merges:
+    - product-configurator-oth $ODOO_VERSION
+
+./pos-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    pos-oth: https://github.com/Cantay/pos-oth.git
+  target: pos-oth $ODOO_VERSION
+  merges:
+    - pos-oth $ODOO_VERSION
+
+./hr-helpdesk-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    hr-helpdesk-oth: https://github.com/Cantay/hr-helpdesk-oth.git
+  target: hr-helpdesk-oth $ODOO_VERSION
+  merges:
+    - hr-helpdesk-oth $ODOO_VERSION
+
+./commission-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    commission-oth: https://github.com/Cantay/commission-oth.git
+  target: commission-oth $ODOO_VERSION
+  merges:
+    - commission-oth $ODOO_VERSION
+
+./vertical-education-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    vertical-education-oth: https://github.com/Cantay/vertical-education-oth.git
+  target: vertical-education-oth $ODOO_VERSION
+  merges:
+    - vertical-education-oth $ODOO_VERSION
+
+./social-media-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    social-media-oth: https://github.com/Cantay/social-media-oth.git
+  target: social-media-oth $ODOO_VERSION
+  merges:
+    - social-media-oth $ODOO_VERSION
+
+./connector-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    connector-oth: https://github.com/Cantay/connector-oth.git
+  target: connector-oth $ODOO_VERSION
+  merges:
+    - connector-oth $ODOO_VERSION
+
+./helpdesk-extend-oca:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    helpdesk-extend-oca: https://github.com/Cantay/helpdesk-extend-oca.git
+  target: helpdesk-extend-oca $ODOO_VERSION
+  merges:
+    - helpdesk-extend-oca $ODOO_VERSION
+
+./sale-subscription-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    sale-subscription-oth: https://github.com/Cantay/sale-subscription-oth.git
+  target: sale-subscription-oth $ODOO_VERSION
+  merges:
+    - sale-subscription-oth $ODOO_VERSION
+
+./dashboard_oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    dashboard_oth: https://github.com/Cantay/dashboard_oth.git
+  target: dashboard_oth $ODOO_VERSION
+  merges:
+    - dashboard_oth $ODOO_VERSION
+
+./connector-woo-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    connector-woo-oth: https://github.com/Cantay/connector-woo-oth.git
+  target: connector-woo-oth $ODOO_VERSION
+  merges:
+    - connector-woo-oth $ODOO_VERSION
+
+./server-backend-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    server-backend-oth: https://github.com/Cantay/server-backend-oth.git
+  target: server-backend-oth $ODOO_VERSION
+  merges:
+    - server-backend-oth $ODOO_VERSION
+
+./payment-provider-tr-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    payment-provider-tr-oth: https://github.com/Cantay/payment-provider-tr-oth.git
+  target: payment-provider-tr-oth $ODOO_VERSION
+  merges:
+    - payment-provider-tr-oth $ODOO_VERSION
+
+./connector-telephony-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    connector-telephony-oth: https://github.com/Cantay/connector-telephony-oth.git
+  target: connector-telephony-oth $ODOO_VERSION
+  merges:
+    - connector-telephony-oth $ODOO_VERSION
+
+./website-themes-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    website-themes-oth: https://github.com/Cantay/website-themes-oth.git
+  target: website-themes-oth $ODOO_VERSION
+  merges:
+    - website-themes-oth $ODOO_VERSION
+
+./not-category:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    not-category: https://github.com/Cantay/not-category.git
+  target: not-category $ODOO_VERSION
+  merges:
+    - not-category $ODOO_VERSION
+
+./social-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    social-oth: https://github.com/Cantay/social-oth.git
+  target: social-oth $ODOO_VERSION
+  merges:
+    - social-oth $ODOO_VERSION
+
+./vertical-travel-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    vertical-travel-oth: https://github.com/Cantay/vertical-travel-oth.git
+  target: vertical-travel-oth $ODOO_VERSION
+  merges:
+    - vertical-travel-oth $ODOO_VERSION
+
+./social-oca:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    social-oca: https://github.com/Cantay/social-oca.git
+  target: social-oca $ODOO_VERSION
+  merges:
+    - social-oca $ODOO_VERSION
+
+./knowledge-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    knowledge-oth: https://github.com/Cantay/knowledge-oth.git
+  target: knowledge-oth $ODOO_VERSION
+  merges:
+    - knowledge-oth $ODOO_VERSION
+
+./dms-extended-oca:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    dms-extended-oca: https://github.com/Cantay/dms-extended-oca.git
+  target: dms-extended-oca $ODOO_VERSION
+  merges:
+    - dms-extended-oca $ODOO_VERSION
+
+./currency-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    currency-oth: https://github.com/Cantay/currency-oth.git
+  target: currency-oth $ODOO_VERSION
+  merges:
+    - currency-oth $ODOO_VERSION
+
+./contract-extendet-oca:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    contract-extendet-oca: https://github.com/Cantay/contract-extendet-oca.git
+  target: contract-extendet-oca $ODOO_VERSION
+  merges:
+    - contract-extendet-oca $ODOO_VERSION
+
+./agreement-extended-oca:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    agreement-extended-oca: https://github.com/Cantay/agreement-extended-oca.git
+  target: agreement-extended-oca $ODOO_VERSION
+  merges:
+    - agreement-extended-oca $ODOO_VERSION
+
+./account-butgeting-oth:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    account-butgeting-oth: https://github.com/Cantay/account-butgeting-oth.git
+  target: account-butgeting-oth $ODOO_VERSION
+  merges:
+    - account-butgeting-oth $ODOO_VERSION
